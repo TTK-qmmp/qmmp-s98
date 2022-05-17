@@ -45,5 +45,4 @@ INCLUDEPATH += $$PWD/libs98
 unix {
     target.path = $$PLUGIN_DIR/Input
     INSTALLS += target
-    QMAKE_CLEAN = $$PLUGINS_PREFIX/Input/libs98.so
 }
