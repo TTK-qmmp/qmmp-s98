@@ -26,6 +26,7 @@ DecoderProperties DecoderS98Factory::properties() const
     properties.description = "S98 Audio File";
     properties.protocols << "file";
     properties.noInput = true;
+    properties.hasAbout = true;
     return properties;
 }
 
