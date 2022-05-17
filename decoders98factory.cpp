@@ -85,9 +85,9 @@ void DecoderS98Factory::showSettings(QWidget *parent)
 
 void DecoderS98Factory::showAbout(QWidget *parent)
 {
-    QMessageBox::about (parent, tr("About S98 Reader Plugin"),
-                        tr("Qmmp S98 Reader Plugin")+"\n"+
-                        tr("Written by: Greedysky <greedysky@163.com>"));
+    QMessageBox::about(parent, tr("About S98 Reader Plugin"),
+                       tr("Qmmp S98 Reader Plugin") + "\n" +
+                       tr("Written by: Greedysky <greedysky@163.com>"));
 }
 
 QString DecoderS98Factory::translation() const
