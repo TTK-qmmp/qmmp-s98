@@ -1,4 +1,4 @@
-This is a plugin for Qmmp (1.4.0 or greater) which supports S98 file.
+This is a plugin for Qmmp (1.6.0 or greater) which supports S98 file.
 (S98 Audio File)
 
 The following packages are required, including development headers,
