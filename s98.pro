@@ -2,7 +2,7 @@ HEADERS += decoders98factory.h \
            decoder_s98.h \
            s98helper.h \
            s98metadatamodel.h
-    
+
 SOURCES += decoders98factory.cpp \
            decoder_s98.cpp \
            s98helper.cpp \
