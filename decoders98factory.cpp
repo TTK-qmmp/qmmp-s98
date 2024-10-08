@@ -79,10 +79,18 @@ MetaDataModel* DecoderS98Factory::createMetaDataModel(const QString &path, bool 
     return new S98MetaDataModel(path);
 }
 
+#if (QMMP_VERSION_INT < 0x10700) || (0x20000 <= QMMP_VERSION_INT && QMMP_VERSION_INT < 0x20200)
 void DecoderS98Factory::showSettings(QWidget *parent)
 {
     Q_UNUSED(parent);
 }
+#else
+QDialog *DecoderS98Factory::createSettings(QWidget *parent)
+{
+    Q_UNUSED(parent);
+    return nullptr;
+}
+#endif
 
 void DecoderS98Factory::showAbout(QWidget *parent)
 {
