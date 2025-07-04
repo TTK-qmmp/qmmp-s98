@@ -19,7 +19,6 @@ typedef char			Char;
 typedef Int32 Sample;
 
 #include <stdlib.h>
-#include <malloc.h>
 #include <memory.h>
 
 #define XSLEEP(t)	_sleep(t)
