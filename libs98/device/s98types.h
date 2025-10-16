@@ -18,10 +18,11 @@ typedef char			Char;
 
 typedef Int32 Sample;
 
+#include <unistd.h>
 #include <stdlib.h>
 #include <memory.h>
 
-#define XSLEEP(t)	_sleep(t)
+#define XSLEEP(t)	sleep(t)
 #define XMALLOC(s)	malloc(s)
 #define XREALLOC(p,s)	realloc(p,s)
 #define XFREE(p)	free(p)
