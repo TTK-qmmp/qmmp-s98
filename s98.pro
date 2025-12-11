@@ -44,8 +44,6 @@ SOURCES += decoders98factory.cpp \
            libs98/zlib/inftrees.c \
            libs98/zlib/inffast.c
 
-INCLUDEPATH += $$PWD/libs98
-
 #CONFIG += BUILD_PLUGIN_INSIDE
 contains(CONFIG, BUILD_PLUGIN_INSIDE){
     include($$PWD/../../plugins.pri)
