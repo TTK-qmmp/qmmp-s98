@@ -1,5 +1,6 @@
 This is a plugin for Qmmp (1.6.0 or greater) which supports S98 file.
-(S98 Audio File)
+
+Based on [S98](https://github.com/sasq64/musicplayer) (S98 audio module).
 
 The following packages are required, including development headers,
 which some vendors split into separate packages:
