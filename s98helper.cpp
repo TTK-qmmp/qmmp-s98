@@ -30,14 +30,14 @@ bool S98Helper::initialize()
     QFile file(m_path);
     if(!file.open(QIODevice::ReadOnly))
     {
-        qWarning("S98Helper: open file failed");
+        qWarning("S98Helper: open file failed, %s", qPrintable(m_path));
         return false;
     }
 
     m_input = new s98File;
     if(!m_input)
     {
-        qWarning("S98Helper: create error");
+        qWarning("S98Helper: create error, %s", qPrintable(m_path));
         return false;
     }
 
