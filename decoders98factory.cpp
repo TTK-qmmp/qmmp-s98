@@ -80,7 +80,7 @@ TrackInfoList DecoderS98Factory::createPlayList(const QString &path, TrackInfo::
     return {raw};
 }
 
-MetaDataModel* DecoderS98Factory::createMetaDataModel(const QString &path, bool readOnly)
+MetaDataModel *DecoderS98Factory::createMetaDataModel(const QString &path, bool readOnly)
 {
     Q_UNUSED(readOnly);
     return new S98MetaDataModel(path);
